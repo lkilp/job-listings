@@ -1,8 +1,8 @@
 .Attribution {
-    font-size: 11px;
     text-align: center;
 
     a {
-        color: hsl(228, 45%, 44%);
+        color: var(--desaturated-dark-cyan);
+        font-weight: 700;
     }
 }
