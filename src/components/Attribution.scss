@@ -1,8 +1,14 @@
 .Attribution {
-    text-align: center;
+    margin: auto 30px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     a {
         color: var(--desaturated-dark-cyan);
         font-weight: 700;
+    }
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
     }
 }

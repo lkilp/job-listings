@@ -1,6 +1,4 @@
 .JobCard {
-    --border-radius: 5px;
-
     min-height: 150px;
     background-color: white;
     margin-bottom: 25px;
@@ -59,7 +57,7 @@
         text-transform: uppercase;
         color: white;
         font-weight: 700;
-        padding: 7px 6px 3px 6px;
+        padding: 7px 8px 3px 8px;
         border-radius: 50px;
         margin-right: 7px;
         font-size: 14px;
@@ -130,7 +128,7 @@
     }
 
     @media screen and (max-width: 700px) {
-        margin-bottom: 40px;
+        margin-bottom: 50px;
         .logo {
             position: absolute;
             --size: 50px;
