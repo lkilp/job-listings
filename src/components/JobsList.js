@@ -5,9 +5,7 @@ import JobCard from './JobCard';
 import Filter from './Filter';
 
 const JobsList = () => {
-    const [filterTags, setFilterTags] = useState([{
-        key: 'role', value: 'Frontend'
-    }]);
+    const [filterTags, setFilterTags] = useState([]);
     const addTag = (tag) => {
         if (filterTags.find(testTag => testTag.value === tag.value)) {
             return;
